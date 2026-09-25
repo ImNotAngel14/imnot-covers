@@ -1,30 +1,24 @@
 const toggleBtn = document.getElementById('theme-toggle');
+const themeIcon = toggleBtn.querySelector('i');
 const html = document.documentElement;
 
-function updateButtonText(theme) {
-    toggleBtn.textContent = theme === 'light' ? '🌙' : '☀️';
+function updateIcon(theme) {
+  themeIcon.className = theme === 'light' ? 'bi bi-moon-fill' : 'bi bi-sun-fill';
 }
 
 const saved = localStorage.getItem('theme');
 if (saved === 'light') {
-    html.setAttribute('data-theme', 'light');
+  html.setAttribute('data-theme', 'light');
 }
-updateButtonText(saved || 'dark');
+updateIcon(saved || 'dark');
 
 toggleBtn.addEventListener('click', () => {
-    const current = html.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
-    if (current === 'light') {
+  const current = html.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+  if (current === 'light') {
     html.setAttribute('data-theme', 'light');
-    } else {
+  } else {
     html.removeAttribute('data-theme');
-    }
-    localStorage.setItem('theme', current);
-    updateButtonText(current);
-});
-
-kofiWidgetOverlay.draw('imnotangel14', {
-    'type': 'floating-chat',
-    'floating-chat.donateButton.text': 'Support me',
-    'floating-chat.donateButton.background-color': '#C6A74F',
-    'floating-chat.donateButton.text-color': '#fff'
+  }
+  localStorage.setItem('theme', current);
+  updateIcon(current);
 });

@@ -49,3 +49,16 @@ body {
   --bs-navbar-brand-color: #1a1a1a;
   --bs-navbar-hover-color: #000;
 }
+#theme-toggle {
+  border: none;
+  background: transparent;
+  color: var(--text);
+}
+
+#theme-toggle:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+[data-theme="light"] #theme-toggle:hover {
+  background: rgba(0, 0, 0, 0.08);
+}
