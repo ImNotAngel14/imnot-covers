@@ -1,0 +1,52 @@
+[
+    {
+        "id": "botw01", 
+        "game": "BOTW",
+        "title_en": "White",
+        "title_es": "Blanco",
+        "subtitle": "The Legend Of Zelda: Breath Of The Wild",
+        "thumbnail": "assets/botw01.webp",
+        "link": "https://drive.google.com/drive/folders/1EBNRbYQgfCxeXeqRV2Y6X-KNeWJL_4ca?usp=drive_link",
+        "date": "2026-09-17"
+    },
+    {
+        "id": "botw02", 
+        "game": "BOTW",
+        "title_en": "Gold",
+        "title_es": "Dorado",
+        "subtitle": "The Legend Of Zelda: Breath Of The Wild",
+        "thumbnail": "assets/botw02.webp",
+        "link": "https://drive.google.com/drive/folders/1Q7fFoetJl2NcdlAz4llN46dKeRQLBh4k?usp=drive_link",
+        "date": "2026-09-18"
+    },
+    {
+        "id": "totk01", 
+        "game": "TOTK",
+        "title_en": "Sky Fall",
+        "title_es": "Caída",
+        "subtitle": "The Legend Of Zelda: Tears Of The Kingdom",
+        "thumbnail": "assets/totk01.webp",
+        "link": "https://drive.google.com/drive/folders/1jhPA7upT5xntRvH1qIEqLWwpTo0WWh6i?usp=drive_link",
+        "date": "2026-09-22"
+    },
+    {
+        "id": "totk02", 
+        "game": "TOTK",
+        "title_en": "Characters",
+        "title_es": "Personajes",
+        "subtitle": "The Legend Of Zelda: Tears Of The Kingdom",
+        "thumbnail": "assets/totk02.webp",
+        "link": "https://drive.google.com/drive/folders/1NBaFIHS_fwPlMO6biuWe5AGOaefXL9Vh?usp=drive_link",
+        "date": "2026-09-20"
+    },
+    {
+        "id": "ssbu01", 
+        "game": "SSBU",
+        "title_en": "Classic Mode",
+        "title_es": "Modo Clásico",
+        "subtitle": "Super Smash Bros. Ultimate",
+        "thumbnail": "assets/ssbu01.webp",
+        "link": "https://drive.google.com/drive/folders/1iVEAjYwS87IK-64O5MObsq4T50uUOJxg?usp=drive_link",
+        "date": "2026-09-27"
+    }
+]
