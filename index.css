@@ -1,14 +1,26 @@
 .btn-gold {
-  background-color: #C6A74F;
-  border-color: #C6A74F;
-  color: #FFFFFF;
+  background-color: #FFFFFF;
+  border-color: #FFFFFF;
+  color: #000;
   font-weight: 500;
 }
 
 .btn-gold:hover {
-  background-color: #B69953;
-  border-color: #B69953;
-  color: #FFFFFF;
+  background-color: #777;
+  border-color: #777;
+  color: #000;
+}
+
+[data-theme="light"] .btn-gold {
+  background-color: #000;
+  border-color: #000;
+  color: #fff;
+}
+
+[data-theme="light"] .btn-gold:hover {
+  background-color: #000;
+  border-color: #000;
+  color: #777;
 }
 
 :root {
